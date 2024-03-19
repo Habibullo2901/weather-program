@@ -1,0 +1,62 @@
+.navbar {
+    padding: 0 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar > ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar__title {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: blueviolet;
+}
+
+.city__input {
+    width: 550px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.city__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.401);
+    border-radius: 18px;
+    padding: 9px 20px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.search__icon {
+    width: 25px;
+    height: 25px;
+    color: rgb(84, 84, 84);
+}
+
+.select {
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
